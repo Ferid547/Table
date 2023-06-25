@@ -1,0 +1,34 @@
+table {
+    border: 1px solid #c9c9c9;
+    border-collapse: collapse;
+    outline: 15px #c3c3c3 solid;
+    box-shadow: -5px 0px 20px 13px;
+    margin: auto;
+    position: relative;
+    width: 600px;
+    height: 300px;
+    top: 190px;
+    font-family: 'Poppins', sans-serif;
+}
+thead {
+    background-color: black;
+    color: white;
+    height: 50px;
+    border: 1px solid black;
+}
+thead tr th {
+    padding-right: 15px;
+}
+tbody tr {
+    border: 1px solid #d9d9d9;
+}
+tbody tr td {
+    padding-left: 60px;
+}
+tbody tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+tbody tr td:first-child {
+    padding-left: 29px;
+
+}
